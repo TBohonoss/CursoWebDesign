@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../img/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+
+.article header {
+    background-color: rgb(221, 221, 221);
+    border: 1px solid white;
+    border-bottom: 3px solid rgb(189, 189, 189);
+    padding: 0;
+}
+
+.article h2 {
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    height: 80px;
+    line-height: 80px;
+}
+
