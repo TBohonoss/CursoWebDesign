@@ -24,6 +24,14 @@ body {
     text-shadow: 3px 3px 2px #333;
 }
 
+.hero-content P {
+    background-color: rgba(0,0,0,0.6);
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 2px solid white;
+    margin-top: 40px;
+}
+
 .hero nav ul {
     text-align: right;
     margin: 25px 25px;
@@ -59,9 +67,32 @@ main {
     background-color: white;
     padding: 15px;
     margin-top: 15px;
+    overflow: auto;
 }
 
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
 
+.card-1, .card-2 {
+    margin-right: 2%;    
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px;
+}
 
 .article header {
     background-color: rgb(221, 221, 221);
