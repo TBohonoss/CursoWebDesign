@@ -45,7 +45,7 @@ body {
     letter-spacing: 4px;
     font-size: 14px;
     font-weight: 500;
-    transition: color 0.4s linear;
+    transition: color .4s linear;
 }
 
 .header-nav a:hover {
